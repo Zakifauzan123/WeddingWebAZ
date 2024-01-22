@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    font-family: "Montserrat";
+    overflow-y: scroll;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .logo {
+    width: 50px; 
+    height: auto; 
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .menu a {
+    color: black;
+    text-decoration: none;
+    margin: 5px 20px;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .menu a:hover {
+    background-color: black;
+    color: white;
+    border-radius:4px;
+  }
+
+  .section{
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .judul{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .paragraf{
+    font-size: 0.6rem;
+    text-align: center;
+  }
+  .paragrafkiri{
+    font-size: 0.7rem;
+    text-align: left;
+  }
+  .italicteks{
+    font-style: italic;
+  }
+  .maincontainer{
+    padding-left: 5px;
+    max-width: 1200px; /* Menetapkan lebar maksimum */
+    margin: 0 auto;
+ }
+ .container {
+    text-align: left; /* Mengatur teks di dalam container agar berada di kiri */
+    max-width: 1200px; /* Menetapkan lebar maksimum container */
+    margin: 20px auto;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+  p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .gambar{
+    width: 350px;
+    height: auto;
+    float: right;
+    margin-left: 20px;
+  }
+ 
+  .btn{
+    background-color: #789461;
+    color: aliceblue;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #50623A;
+  }
+  .maincontentkanan{
+    float: right;
+    text-align: left;
+    padding-right: 200px;
+  }
+  .gambar-prewedding{
+    width: 550px;
+    height: auto;
+    padding-left: 50px;
+  }
+  .paket-lamaran{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 150px;
+  }
+  .whyus{
+    float: right;
+  }
+  .row{
+    display: flex;
+  }
+  .coloumn{
+    flex: 50%;
+    font-size: 15px;
+  }
+  .footer{
+    background-color: #EEE7DA;
+  }
+  .footer-card1{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
